@@ -1,28 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-
 <header>
+    <nav>
+        <h2 class="logo">Portfolio</h2>
 
-<div class="about">
-<h1>Poltfolio</h1>
-<p>I am a passionate Web Developer with experience in building modern and scalable web applications. I specialize in PHP and Laravel development and have strong knowledge of frontend technologies such as HTML, CSS, Tailwind CSS, and React. I enjoy creating clean, responsive, and user-friendly interfaces while ensuring strong backend functionality and database management.</p>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<section class="hero">
+    <h1>Hello, I'm <span>Gurpreet Singh</span></h1>
+    <p>Web Developer | Laravel Developer | Frontend Designer | Backendend Developer</p>
+    <button>Hire Me</button>
+</section>
+
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate web developer with experience in Laravel,
+        HTML, CSS, and JavaScript. I build modern websites and web
+        applications with clean design and strong backend logic.
+    </p>
+</section>
+
+
+<section id="skills" class="skills">
+    <h2>My Skills</h2>
+
+    <div class="skill-box">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Laravel</div>
+        <div class="card">WordPress</div>
+        <div class="card">MySQL</div>
+    </div>
+</section>
+
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project">
+            <h3>Ecommerce Website</h3>
+            <p>Developed using Laravel and MySQL</p>
+        </div>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>Modern responsive design using HTML CSS</p>
+        </div>
+
+        <div class="project">
+            <h3>WordPress Website</h3>
+            <p>Custom theme and plugin development</p>
+        </div>
+      <div class="project">
+    <h3>Custom CMS Development</h3>
+    <p>Built dynamic CMS websites using Laravel that allow easy management of pages, content, users, and media through an admin dashboard.</p>
 </div>
 
+    </div>
+</section>
 
 
-</header>
-    
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: gurpreet.singh.developer1@gmail.com</p>
+</section>
 
 
+<footer>
+    <p>© 2026 Gurpreet Singh</p>
+</footer>
 
-
- </body> 
+</body>
 </html>
